@@ -7,8 +7,9 @@ never edits the pages it looks at.
 It's a companion to [docs-gate](https://github.com/krithikaswaminathan/docs-gate), which applies a
 general rubric to any docs page, but it stands alone: you don't need docs-gate installed.
 
-> **Status: in progress.** Tutorials have three checks so far (one goal, ten steps or fewer, a
-> place to learn), adapted from *Docs for Developers* (Bhatti et al.). The installation-guide
+> **Status: in progress.** Tutorials have 13 checks, adapted from *Docs for Developers*
+> (Bhatti et al.) and David Colby's "Writing effective coding tutorials"; sources are credited in
+> `tutorial.md`. The installation-guide
 > checks are still an empty template; until they're filled in, a review of an installation guide
 > reports that no checks are defined for it.
 
@@ -63,8 +64,13 @@ To add another page type, copy `install-guide.md`, fill it in, and list the new 
 `fixtures/` holds synthetic pages about a made-up product, Tasklet:
 
 - `tutorial/build-a-todo-cli.md` — a clean tutorial that should pass every tutorial check.
-- `tutorial/too-much-tutorial.md` — one seeded defect per tutorial check; the expected findings
-  are listed in a comment at the top.
+- `tutorial/too-much-tutorial.md` — fails most of the up-front checks (no single goal, no
+  audience level, no versions, no preview, too many steps).
+- `tutorial/broken-promise-tutorial.md` — passes the up-front checks, so the checks that depend
+  on a stated goal and level (promise kept, on topic, checkpoints, explanation depth, recap) can
+  fire.
+
+Each seeded-defect page lists its expected findings in a comment at the top.
 - `install-guide/install-tasklet.md` — no seeded defects yet; add them once the
   installation-guide checks exist.
 

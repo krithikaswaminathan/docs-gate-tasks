@@ -3,7 +3,7 @@ name: task-standards
 description: Background knowledge for docs-gate-tasks — how to recognize a tutorial or an installation guide, and the checks each page type is reviewed against. Use when the review-task skill asks you to apply these checks, or when asked what docs-gate-tasks checks for.
 ---
 
-> **Status: in progress.** [tutorial.md](tutorial.md) has checks T1–T3 (its "how it differs from
+> **Status: in progress.** [tutorial.md](tutorial.md) has checks T1–T13 (its "how it differs from
 > an installation guide" line is still TODO). [install-guide.md](install-guide.md) is still an
 > empty template. Until a file's checks are written, `review-task` reports that the checks for
 > that page type aren't defined yet instead of inventing its own.
