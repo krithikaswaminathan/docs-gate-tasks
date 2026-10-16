@@ -3,8 +3,9 @@ title: Build your first to-do CLI
 sidebar_label: Build a to-do CLI
 ---
 
-<!-- SYNTHETIC FIXTURE for docs-gate-tasks. "Tasklet" is a made-up product. No defects are seeded
-yet: add them once tutorial.md's checks are written, so each one exercises a specific check. -->
+<!-- SYNTHETIC FIXTURE for docs-gate-tasks. "Tasklet" is a made-up product. This is the CLEAN
+tutorial: it should pass T1-T3 (one goal, 7 actions, practice folder stated). See
+too-much-tutorial.md for the seeded-defect version. -->
 
 # Build your first to-do CLI
 
@@ -17,6 +18,9 @@ This tutorial is for developers who are new to Tasklet. It takes about 15 minute
 
 - Tasklet 2.x installed. See [Install Tasklet](../install-guide/install-tasklet.md).
 - A terminal.
+
+You'll work in a new, empty folder, so nothing in this tutorial touches your real task lists. You
+can delete the folder when you're done.
 
 ## Step 1: Create a project
 
