@@ -12,8 +12,8 @@ count) so that the checks which depend on a stated goal and level can fire:
   T11 (Blocker): Step 3 hands over a finished config block with no explanation.
   T12 (Blocker): written for beginners, but uses undefined jargon ("idempotent", "TTL",
                  "hydrate") and explains nothing.
-  T13 (Blocker): no recap or next steps.
-Expected review: needs work, 6 Blockers. T1-T7 should pass. -->
+  T13 (Should-fix): no recap or next steps.
+Expected review: needs work, 5 Blockers + 1 Should-fix. T1-T7 should pass. -->
 
 # Build a Tasklet dashboard in your browser
 

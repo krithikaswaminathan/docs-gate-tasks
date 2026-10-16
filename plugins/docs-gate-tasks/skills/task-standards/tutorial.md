@@ -84,7 +84,7 @@ TODO: what tells a tutorial apart from an installation guide.
   project.
 - **Passes when**: the page links to the complete code the tutorial builds, so the reader can
   compare it with their own.
-- **Severity if it fails**: **Blocker**.
+- **Severity if it fails**: **Should-fix**.
 - **Doesn't apply when**: the tutorial doesn't produce any code.
 
 ### T8. Delivers what it promised
@@ -140,5 +140,5 @@ TODO: what tells a tutorial apart from an installation guide.
 - **What to look for**: a closing section.
 - **Passes when**: the page ends by recapping what the reader learned or built, and points to what
   to read or try next.
-- **Severity if it fails**: **Blocker**.
+- **Severity if it fails**: **Should-fix**.
 - **Doesn't apply when**: always applies.

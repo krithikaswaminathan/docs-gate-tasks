@@ -11,13 +11,13 @@ this page fails almost everything up front:
   T4  (Blocker): no audience level stated.
   T5  (Blocker): no tools or versions named.
   T6  (Blocker): no finished result shown before the first step.
-  T7  (Blocker): no link to final code.
+  T7  (Should-fix): no link to final code.
   T10 (Blocker): no checkpoints after any step.
   T11 (Blocker): steps are bare commands with no explanation.
-  T13 (Blocker): "You're all set." is not a recap and gives no next steps.
+  T13 (Should-fix): "You're all set." is not a recap and gives no next steps.
 Not assessed: T8 (no goal stated, reported under T1), T12 (no level stated, reported under T4).
 T9 is a judgment call here: the page has no single goal to drift from.
-Expected review: needs work, 8 Blockers + 2 Should-fix. -->
+Expected review: needs work, 6 Blockers + 4 Should-fix. -->
 
 # Get started with Tasklet
 
