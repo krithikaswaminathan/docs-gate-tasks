@@ -7,11 +7,8 @@ never edits the pages it looks at.
 It's a companion to [docs-gate](https://github.com/krithikaswaminathan/docs-gate), which applies a
 general rubric to any docs page, but it stands alone: you don't need docs-gate installed.
 
-> **Status: in progress.** Tutorials have 14 checks, adapted from *Docs for Developers*
-> (Bhatti et al.), David Colby's "Writing effective coding tutorials", and Diátaxis; sources are credited in
-> `tutorial.md`. The installation-guide
-> checks are still an empty template; until they're filled in, a review of an installation guide
-> reports that no checks are defined for it.
+> **Status:** tutorials have 14 checks (T1–T14) and installation guides have 15 (I1–I15). Each
+> checks file credits the sources its checks were adapted from.
 
 ## What it does
 
@@ -56,7 +53,7 @@ The checks live in `plugins/docs-gate-tasks/skills/task-standards/`:
 Each check has the same fields: what to look for, when it passes, its severity if it fails, and
 when it doesn't apply. A check that still says `TODO` is skipped.
 
-To add another page type, copy `install-guide.md`, fill it in, and list the new type in
+To add another page type, create a file with the same structure as `install-guide.md`, fill it in, and list the new type in
 `task-standards/SKILL.md` and `review-task/SKILL.md`.
 
 ## Fixtures
@@ -71,8 +68,10 @@ To add another page type, copy `install-guide.md`, fill it in, and list the new 
   fire.
 
 Each seeded-defect page lists its expected findings in a comment at the top.
-- `install-guide/install-tasklet.md` — no seeded defects yet; add them once the
-  installation-guide checks exist.
+- `install-guide/install-tasklet.md` — a clean installation guide that should pass every
+  installation-guide check.
+- `install-guide/install-tasklet-defective.md` — fails some installation-guide checks and passes
+  the rest.
 
 ## Design decisions
 
