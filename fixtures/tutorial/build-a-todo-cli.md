@@ -4,9 +4,9 @@ sidebar_label: Build a to-do list
 ---
 
 <!-- SYNTHETIC FIXTURE for docs-gate-tasks. "Tasklet" is a made-up product. This is the CLEAN
-tutorial: it should pass T1-T13. One goal (a to-do list you can add to and complete), beginner
+tutorial: it should pass T1-T14. One goal (a to-do list you can add to and complete), beginner
 level, tool and version named, finished output shown up front, final code linked, 7 reader actions,
-throwaway folder, a checkpoint after each step, recap and next steps.
+throwaway folder, a checkpoint after each step, one path with no branches, recap and next steps.
 See too-much-tutorial.md and broken-promise-tutorial.md for the seeded-defect versions. -->
 
 # Build your first to-do list with Tasklet

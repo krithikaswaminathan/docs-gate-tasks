@@ -13,7 +13,8 @@ count) so that the checks which depend on a stated goal and level can fire:
   T12 (Blocker): written for beginners, but uses undefined jargon ("idempotent", "TTL",
                  "hydrate") and explains nothing.
   T13 (Should-fix): no recap or next steps.
-Expected review: needs work, 5 Blockers + 1 Should-fix. T1-T7 should pass. -->
+  T14 (Nice-to-have): Step 1 branches for Windows readers.
+Expected review: needs work, 5 Blockers + 1 Should-fix + 1 Nice-to-have. T1-T7 should pass. -->
 
 # Build a Tasklet dashboard in your browser
 
@@ -41,6 +42,8 @@ mkdir dashboard-tutorial
 cd dashboard-tutorial
 tasklet init
 ```
+
+If you're on Windows, run `md dashboard-tutorial` instead of `mkdir dashboard-tutorial`.
 
 You should see:
 

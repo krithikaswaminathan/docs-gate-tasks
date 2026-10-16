@@ -7,8 +7,8 @@ never edits the pages it looks at.
 It's a companion to [docs-gate](https://github.com/krithikaswaminathan/docs-gate), which applies a
 general rubric to any docs page, but it stands alone: you don't need docs-gate installed.
 
-> **Status: in progress.** Tutorials have 13 checks, adapted from *Docs for Developers*
-> (Bhatti et al.) and David Colby's "Writing effective coding tutorials"; sources are credited in
+> **Status: in progress.** Tutorials have 14 checks, adapted from *Docs for Developers*
+> (Bhatti et al.), David Colby's "Writing effective coding tutorials", and Diátaxis; sources are credited in
 > `tutorial.md`. The installation-guide
 > checks are still an empty template; until they're filled in, a review of an installation guide
 > reports that no checks are defined for it.

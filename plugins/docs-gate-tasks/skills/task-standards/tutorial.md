@@ -6,6 +6,8 @@
 >   Heidi Waterhouse; Apress, 2021).
 > - **T4–T13:** David Colby, ["Writing effective coding tutorials"](https://www.colby.so/posts/writing-effective-coding-tutorials)
 >   (July 2022).
+> - **How to recognize a tutorial (second paragraph) and T14:** Diátaxis,
+>   ["The difference between a tutorial and how-to guide"](https://diataxis.fr/tutorials-how-to/).
 >
 > Anything still marked `TODO` is a placeholder. `review-task` treats a check that still says
 > `TODO` as not defined and doesn't apply it.
@@ -16,7 +18,10 @@ A tutorial is a procedure that teaches the reader how to reach one specific goal
 reader try something out, such as an integration, in a setting meant for learning, rather than
 building the real thing. It may supply a practice environment, test data, or tools for that.
 
-TODO: what tells a tutorial apart from an installation guide.
+A tutorial is for a reader who is learning: it follows one path with no branches, and is safe to
+repeat. An installation guide is a how-to guide for a reader with a job to do (getting the software
+installed): it may branch by operating system or setup, and assumes the reader can handle
+surprises. Whether the material is basic or advanced doesn't decide the type. (Source: Diátaxis.)
 
 ## Checks
 
@@ -141,4 +146,14 @@ TODO: what tells a tutorial apart from an installation guide.
 - **Passes when**: the page ends by recapping what the reader learned or built, and points to what
   to read or try next.
 - **Severity if it fails**: **Should-fix**.
+- **Doesn't apply when**: always applies.
+
+### T14. One path, no branches
+
+- **What to look for**: conditional steps ("if you're on Windows, do this instead"), optional
+  steps, or alternative ways to do the same thing.
+- **Passes when**: the tutorial follows one path from start to finish, with no branches or
+  alternatives for the reader to choose between.
+- **Severity if it fails**: **Nice-to-have**. In the report, suggest picking one path for the
+  tutorial and moving the alternatives to a how-to guide.
 - **Doesn't apply when**: always applies.
