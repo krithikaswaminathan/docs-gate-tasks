@@ -53,8 +53,8 @@ The checks live in `plugins/docs-gate-tasks/skills/task-standards/`:
 Each check has the same fields: what to look for, when it passes, its severity if it fails, and
 when it doesn't apply. A check that still says `TODO` is skipped.
 
-To add another page type, create a file with the same structure as `install-guide.md`, fill it in, and list the new type in
-`task-standards/SKILL.md` and `review-task/SKILL.md`.
+To add another page type, create a file with the same structure as `install-guide.md`, fill it
+in, and list the new type in `task-standards/SKILL.md` and `review-task/SKILL.md`.
 
 ## Fixtures
 
@@ -66,12 +66,12 @@ To add another page type, create a file with the same structure as `install-guid
 - `tutorial/broken-promise-tutorial.md` — passes the up-front checks, so the checks that depend
   on a stated goal and level (promise kept, on topic, checkpoints, explanation depth, recap) can
   fire.
-
-Each seeded-defect page lists its expected findings in a comment at the top.
 - `install-guide/install-tasklet.md` — a clean installation guide that should pass every
   installation-guide check.
 - `install-guide/install-tasklet-defective.md` — fails some installation-guide checks and passes
   the rest.
+
+Each seeded-defect page lists its expected findings in a comment at the top.
 
 ## Design decisions
 
